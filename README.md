@@ -11,14 +11,6 @@ Features
 Why This Project?
 Satellite image processing is a crucial aspect of remote sensing, urban planning, and environmental monitoring. This project demonstrates the potential of image processing techniques to extract valuable information from raw satellite data. Whether you're a researcher, student, or developer, this repository provides a practical example of edge detection in satellite images, an essential step for further analysis.
 
-Project Structure
-Satellite-Image-Edge-Detection/
-│
-├── README.md                   # Project description and details
-├── process_satellite_image.py  # Main Python script for the processing pipeline
-├── data/                       # Folder to store the input satellite image(s)
-│   └── 61.jp2                  # Example grayscale satellite image
-
 How It Works
 The project follows a structured pipeline:
 1. **Image Loading**: The script loads a grayscale satellite image using the rasterio library.
